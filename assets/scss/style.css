@@ -84,4 +84,9 @@ img {
   width: 24%;
   height: auto;
 }
+
+#card-contact {
+  padding-bottom: 200px;
+  font-family: 'Oswald', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
