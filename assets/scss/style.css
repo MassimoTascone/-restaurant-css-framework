@@ -13,26 +13,30 @@ body h1 {
   padding-top: 5%;
 }
 
+/* NAV BAR DECO */
+.navbar {
+  font-size: 20px;
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+  width: 24%;
+  height: auto;
+}
+
+/* NAV BAR DECO */
+/* Header - Jumbotron */
 header p {
   font-size: 35px;
 }
 
-.navbar {
-  background: transparent;
-}
-
-main h2 {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 5px;
-}
-
-footer {
-  color: white;
-}
-
-footer li {
-  display: inline-block;
-  padding: 10px;
+.jumbotron {
+  background-image: url("../img/burger-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 50%;
 }
 
 .card {
@@ -47,22 +51,61 @@ footer li {
   padding: 20px;
 }
 
+#card-contact {
+  padding-bottom: 200px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Header - Jumbotron */
+/* Main Content */
+main h2 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 5px;
+}
+
 main {
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
-.jumbotron {
-  background-image: url("../img/burger-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  padding-bottom: 50%;
+#menubox {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.navbar {
-  font-size: 20px;
+#titremenu {
+  padding-top: 15%;
 }
 
+#menuimg {
+  width: 90%;
+  height: auto;
+  border: solid white 3px;
+}
+
+#boissonimg {
+  width: 70%;
+  height: auto;
+  border: solid white 3px;
+}
+
+.list-menu {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-menu p {
+  text-align: justify;
+  padding-bottom: 1em;
+  padding-right: 10%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main Content */
+/* Footer */
 footer {
   background-color: #DC3544;
   max-width: 100%;
@@ -80,13 +123,19 @@ footer p {
   font-weight: bold;
 }
 
-img {
+footer img {
   width: 24%;
   height: auto;
 }
 
-#card-contact {
-  padding-bottom: 200px;
-  font-family: 'Oswald', sans-serif;
+footer {
+  color: white;
 }
+
+footer li {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Footer */
 /*# sourceMappingURL=style.css.map */

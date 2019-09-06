@@ -2,6 +2,9 @@
 
 /* Variables */
 
+
+
+
 body {
     background-color:rgb(25, 28, 34);
     color: white;
@@ -14,6 +17,22 @@ body {
     }
 
 }
+/* NAV BAR DECO */
+
+.navbar {
+    font-size: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.25);
+}
+
+#logo {
+    width: 24%;
+    height: auto;
+}
+
+/* NAV BAR DECO */
+
+
+/* Header - Jumbotron */
 
 header {
 
@@ -22,23 +41,13 @@ header {
     }
 
 }
-.navbar {
-    background:transparent;
-}
 
-main {
-    h2 {
-        font-family:'Oswald', sans-serif;
-        letter-spacing: 5px;
-    }
-}
-
-footer {
-    color: white;
-    li {
-        display: inline-block;
-        padding: 10px;
-    }
+.jumbotron {
+    background-image: url("../img/burger-background.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 50%;
 }
 
 .card {
@@ -53,24 +62,71 @@ footer {
     padding: 20px;
 }
 
+#card-contact {
+    padding-bottom: 200px;
+    font-family:'Oswald', sans-serif;
+
+}
+
+/* Header - Jumbotron */
+
+
+/* Main Content */
+
+main {
+    h2 {
+        font-family:'Oswald', sans-serif;
+        letter-spacing: 5px;
+    }
+}
+
 main {
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
-.jumbotron {
-    background-image: url("../img/burger-background.jpg");
-    background-repeat:no-repeat;
-    background-position: center;
-    width: 100%;
-    padding-bottom: 50%;
+//menu design
+
+#menubox {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#titremenu {
+    padding-top: 15%;
 }
 
-.navbar {
-    font-size: 20px;
+#menuimg {
+    width: 90%;
+    height: auto;
+    border: solid white 3px;
+}
+
+#boissonimg {
+    width: 70%;
+    height: auto;
+    border: solid white 3px;
+}
+
+.list-menu {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+        text-align: justify;
+        padding-bottom: 1em;
+        padding-right:10%;
+        margin: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
+/* Main Content */
 
+
+
+
+/* Footer */
 footer {
     background-color:#DC3544;
     max-width: 100%;
@@ -87,17 +143,21 @@ footer {
         font-weight: bold;
     }
 }
+footer {
 
 img {
     width: 24%;
     height: auto;
 }
+}
 
-#card-contact {
-    padding-bottom: 200px;
-    font-family:'Oswald', sans-serif;
-
+footer {
+    color: white;
+    li {
+        display: inline-block;
+        padding: 5px;
+    }
 }
 
 
-
+/* Footer */
