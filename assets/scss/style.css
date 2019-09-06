@@ -3,12 +3,14 @@
 body {
   background-color: #191c22;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body h1 {
   font-size: 90px;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 5px;
+  padding-top: 5%;
 }
 
 header p {
@@ -17,6 +19,11 @@ header p {
 
 .navbar {
   background: transparent;
+}
+
+main h2 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 5px;
 }
 
 footer {
@@ -36,8 +43,8 @@ footer li {
   margin-left: 10%;
 }
 
-.card p {
-  margin: 20px;
+.card-body {
+  padding: 20px;
 }
 
 main {
@@ -58,9 +65,23 @@ main {
 
 footer {
   background-color: #DC3544;
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+footer li {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 footer p {
   padding-top: 2%;
+  font-weight: bold;
+}
+
+img {
+  width: 24%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
