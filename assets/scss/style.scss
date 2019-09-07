@@ -13,7 +13,13 @@ body {
         font-weight: bold;
         font-family:'Oswald', sans-serif;
         letter-spacing: 5px;
-        padding-top: 5%;
+        padding-top: 4%;
+        text-shadow:
+       3px 3px 0 #000,
+       -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
     }
 
 }
@@ -38,6 +44,13 @@ header {
 
     p {
         font-size: 35px;
+        text-shadow:
+       3px 3px 0 #000,
+       -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
     }
 
 }
@@ -101,9 +114,12 @@ main {
 }
 
 #boissonimg {
-    width: 70%;
+    width: 50%;
     height: auto;
     border: solid white 3px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 18%;
 }
 
 .list-menu {
@@ -120,6 +136,16 @@ main {
     }
 }
 
+// Contact design
+
+#contactbox {
+    margin-top: 10%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+#contactform {
+    padding-top: 5%;
+}
 
 /* Main Content */
 
@@ -132,11 +158,8 @@ footer {
     max-width: 100%;
     padding-top: 10px;
     padding-bottom: 0;
-
-    li {
-        padding-left: 20px;
-        padding-right: 20px;
-
+    ul {
+        padding: 0;
     }
     p {
         padding-top: 2%;
@@ -146,16 +169,17 @@ footer {
 footer {
 
 img {
-    width: 24%;
+    width: 30px;
     height: auto;
 }
 }
 
 footer {
     color: white;
+
     li {
-        display: inline-block;
-        padding: 5px;
+        display: inline;
+        margin: 1%;
     }
 }
 

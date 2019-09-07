@@ -10,7 +10,8 @@ body h1 {
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 5px;
-  padding-top: 5%;
+  padding-top: 4%;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* NAV BAR DECO */
@@ -29,6 +30,7 @@ body h1 {
 /* Header - Jumbotron */
 header p {
   font-size: 35px;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .jumbotron {
@@ -84,9 +86,12 @@ main {
 }
 
 #boissonimg {
-  width: 70%;
+  width: 50%;
   height: auto;
   border: solid white 3px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 18%;
 }
 
 .list-menu {
@@ -104,6 +109,16 @@ main {
   margin-right: auto;
 }
 
+#contactbox {
+  margin-top: 10%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contactform {
+  padding-top: 5%;
+}
+
 /* Main Content */
 /* Footer */
 footer {
@@ -113,9 +128,8 @@ footer {
   padding-bottom: 0;
 }
 
-footer li {
-  padding-left: 20px;
-  padding-right: 20px;
+footer ul {
+  padding: 0;
 }
 
 footer p {
@@ -124,7 +138,7 @@ footer p {
 }
 
 footer img {
-  width: 24%;
+  width: 30px;
   height: auto;
 }
 
@@ -133,8 +147,8 @@ footer {
 }
 
 footer li {
-  display: inline-block;
-  padding: 5px;
+  display: inline;
+  margin: 1%;
 }
 
 /* Footer */
