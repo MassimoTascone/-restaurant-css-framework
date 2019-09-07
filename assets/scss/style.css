@@ -122,6 +122,7 @@ main {
 
 #contactbox button {
   position: inline-block;
+  margin-bottom: 20px;
 }
 
 #contactform {
