@@ -1,6 +1,12 @@
 /* CSS for Potjes Burger */
 /* Variables */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  height: 100%;
   background-color: #191c22;
   color: white;
 }
@@ -96,8 +102,7 @@ main {
 
 .list-menu {
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 40px;
 }
 
 .list-menu p {
@@ -115,8 +120,19 @@ main {
           box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+#contactbox button {
+  position: inline-block;
+}
+
 #contactform {
-  padding-top: 5%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+#contacttitle {
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Main Content */
@@ -148,7 +164,7 @@ footer {
 
 footer li {
   display: inline;
-  margin: 1%;
+  margin: 2%;
 }
 
 /* Footer */
