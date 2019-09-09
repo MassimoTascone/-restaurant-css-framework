@@ -66,6 +66,7 @@ header {
     background-position: center;
     width: 100%;
     padding-bottom: 50%;
+    border-bottom: solid #DC3544 3px;
 }
 
 .card {
@@ -144,6 +145,11 @@ main {
 strong {
     font-size: 21px;
 }
+
+h3 {
+    font-size: 30px;
+}
+
 // Contact design
 
 #contactbox {
