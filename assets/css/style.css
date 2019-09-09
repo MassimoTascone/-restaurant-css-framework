@@ -159,6 +159,10 @@ main h4 {
   font-weight: bold;
 }
 
+.heures-ouverture p {
+  font-style: italic;
+}
+
 /* Main Content */
 /* Footer */
 footer {
