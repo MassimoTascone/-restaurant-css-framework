@@ -98,6 +98,10 @@ main {
   border: solid white 3px;
 }
 
+#menulist p {
+  font-style: italic;
+}
+
 .list-menu {
   list-style: none;
   margin-left: 40px;
