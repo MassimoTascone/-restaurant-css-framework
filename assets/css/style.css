@@ -167,6 +167,14 @@ main h4 {
   font-style: italic;
 }
 
+.pagecolor {
+  color: white;
+}
+
+.pagecolor:hover {
+  color: white;
+}
+
 /* Main Content */
 /* Footer */
 footer {
