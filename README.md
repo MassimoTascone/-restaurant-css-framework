@@ -2,7 +2,7 @@
 
 ![screenshot of the page pc](assets/img/screenshotL.png)
 
-Fictive Restaurant's page made  with Boostrap 4 and sass.
+Fictive Restaurant's page made  with Boostrap 4 and sass. [Check it out](https://massimotascone.github.io/restaurant-css-framework/index.html) and yes he IS responsive. ;)
 
 ## What I had to do
 
