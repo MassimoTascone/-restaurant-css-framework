@@ -1,12 +1,14 @@
 # Potjes Burger !
 
-![screenshot of the page](assets/img/screenshotL.png)
+![screenshot of the page pc](assets/img/screenshotL.png)
+
+![screenshot of mobile page](assets/img/screenshotM.png)
 
 Fictive Restaurant's page made  with Boostrap 4 and sass.
 
 ## What I had to do
 
-I had to make a responsive (mobile and laptop,pc) website with Boostrap 4 mainly in 4 days.
+During my WebDev formation at [BeCode](https://www.becode.org) after 3 weeks I had to make a responsive (mobile and laptop,pc) website after 3 weeks of formation with Boostrap in 4 days.
 
 ## Languages
 
