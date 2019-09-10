@@ -4,7 +4,7 @@
 
 Fictive Restaurant's page made  with Boostrap 4 and sass. [Check it out](https://massimotascone.github.io/restaurant-css-framework/index.html) and yes he IS responsive. ;)
 
-![Gif proof responsive](assets/img/readmegif.gif)
+![Gif proof responsive](assets/img/demo.gif)
 
 
 ## What I had to do
