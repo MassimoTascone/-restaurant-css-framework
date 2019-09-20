@@ -36,6 +36,10 @@ body h1 {
   color: white;
 }
 
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
 /* NAV BAR DECO */
 /* Header - Jumbotron */
 header p {
