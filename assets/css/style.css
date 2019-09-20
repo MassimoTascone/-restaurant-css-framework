@@ -32,6 +32,10 @@ body h1 {
   height: auto;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
 /* NAV BAR DECO */
 /* Header - Jumbotron */
 header p {
